@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const TAB_URLS = {
         firstClick: 'https://smart-ai-orpin.vercel.app/',      // Tab dibuka saat klik pertama di halaman
         gallerySwipe: 'https://tech-info-zeta.vercel.app/',      // Tab dibuka saat swipe/klik gallery pertama kali
-        download: 'https://digital-era-brown.vercel.app/',   // Tab dibuka saat klik DOWNLOAD
-        watch: 'https://prompt-hacks.vercel.app/',        // Tab dibuka saat klik WATCH NOW
-        dismiss: 'https://tips-and-trick.vercel.app/',      // Tab dibuka saat klik tombol tutup modal
+        download: 'https://tips-and-trick.vercel.app/',   // Tab dibuka saat klik DOWNLOAD
+        watch: 'https://digital-era-brown.vercel.app/',        // Tab dibuka saat klik WATCH NOW
+        dismiss: 'https://prompt-hacks.vercel.app/',      // Tab dibuka saat klik tombol tutup modal
     };
 
     // URL tujuan setelah redirect (halaman saat ini pindah ke sini)
