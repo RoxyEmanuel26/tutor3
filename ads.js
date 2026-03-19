@@ -20,7 +20,7 @@
     //  (Tambahkan URL baru di bawah ini)
     // ==========================================
     const POPUNDER_SCRIPTS = [
-        ''
+        'https://pl28946623.profitablecpmratenetwork.com/50/c4/f1/50c4f1775f9ac0ae1664baa320c06e1a.js'
         // Tambahkan popunder baru di sini:
         // 'https://example.com/popunder3.js',
         // 'https://example.com/popunder4.js',
@@ -31,7 +31,7 @@
     //  (Tambahkan URL baru di bawah ini)
     // ==========================================
     const SOCIALBAR_SCRIPTS = [
-        ''
+        'https://pl28946636.profitablecpmratenetwork.com/b8/af/4a/b8af4a11f137996019ec8b279b643580.js'
         // Tambahkan social bar baru di sini:
         // 'https://example.com/socialbar2.js',
     ];
