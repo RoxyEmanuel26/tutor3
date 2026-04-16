@@ -2,123 +2,151 @@
 <html lang="id">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artikel Modern & Ringan</title>
-    <link rel="stylesheet" href="style.css">
+    <title>kumpulenak - Premium Cosplay Gallery</title>
+    <meta name="description"
+        content="Koleksi foto cosplay premium berkualitas tinggi. Download dan tonton konten eksklusif dari cosplayer terbaik.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    <!-- Sebagai cadangan untuk perangkat mobile/Apple -->
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+    <!-- Gallery Styles -->
+    <link rel="stylesheet" href="assets/css/gallery.css">
 </head>
 
 <body>
 
-    <a href="https://glamournakedemployee.com/d1ydygn4?key=ae04db9758f66d571a2d122b08635af3" class="open-multi"
-        id="btn-open-multi">
-        🔗 VERIFYING <br> Download (36mb) & Watching (2:17)
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo" onclick="window.location='/'">kumpulenak</div>
+            <span class="admin-badge" id="adminBadge">🔧 ADMIN</span>
+            <nav class="nav-tabs">
+                <button class="nav-tab active" data-tab="popular">popular</button>
+                <button class="nav-tab" data-tab="cosplay">cosplay</button>
+                <button class="nav-tab" data-tab="album">album</button>
+            </nav>
+            <div class="search-box">
+                <input type="text" placeholder="search..." id="searchInput" autocomplete="off">
+                <button onclick="performSearch()" aria-label="Search">🔍</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== VERIFY BUTTON (hidden for admin) ===== -->
+    <a href="https://glamournakedemployee.com/d1ydygn4?key=ae04db9758f66d571a2d122b08635af3" class="verify-btn"
+        id="verifyBtn">
+        🔗 VERIFYING <br> Download (21mb) &amp; Watching (2:11)
     </a>
 
-    <!-- Latar Belakang Artikel ok-->
-    <!-- Banner 300x250 -->
-    <div style="text-align: center; margin: 20px auto; z-index: 999; position: relative;">
-        <script type="text/javascript">
-            atOptions = {
-                'key': 'fa7475fcb8aa6b5eb5c13a61266900d3',
-                'format': 'iframe',
-                'height': 250,
-                'width': 300,
-                'params': {}
-            };
-        </script>
-        <script type="text/javascript"
-            src="https://www.highperformanceformat.com/fa7475fcb8aa6b5eb5c13a61266900d3/invoke.js"></script>
+    <!-- ===== BANNER ===== -->
+    <div class="banner">
+        <div class="banner-img ad-space" id="adBannerHeader" style="border: none;">
+            <script>
+                atOptions = {
+                    'key': '65e2873db896eff43ecf46df75e135f8',
+                    'format': 'iframe',
+                    'height': 50,
+                    'width': 320,
+                    'params': {}
+                };
+            </script>
+            <script src="https://glamournakedemployee.com/65e2873db896eff43ecf46df75e135f8/invoke.js"></script>
+
+        </div>
     </div>
 
-    <!-- Tips & Tricks Article -->
-    <article class="content">
-        <h1>7 Smart Digital Decluttering Tips to Make Your Computer Faster in 2026</h1>
-        <p class="meta">Written on March 12, 2026 | By Editorial Team</p>
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="main-content">
+        <div class="content-wrapper">
+            <div class="section-label" id="sectionLabel">popular</div>
+            <div class="card-grid" id="cardGrid">
+                <!-- Cards injected by gallery.js -->
+            </div>
 
-        <p>In the modern digital era, our computers slowly accumulate thousands of files, unused programs, temporary
-            data, and duplicate images. Over time, this invisible clutter can slow down performance, reduce storage
-            space, and make it harder to find important files.</p>
+            <!-- PAGINATION -->
+            <div class="pagination" id="pagination">
+                <!-- Pagination injected by gallery.js -->
+            </div>
 
-        <p>Digital decluttering has become a trending productivity habit in 2026. Many professionals and creators now
-            treat their digital workspace the same way they treat their physical desk — organized, minimal, and
-            efficient.</p>
+            <!-- AD BANNER CONTENT (Banner Bawah) -->
+            <div class="ad-space" id="adBannerContent"
+                style="margin: 16px auto 0; background: transparent; border: none; text-align: center;">
+                <script>
+                    atOptions = {
+                        'key': 'fa7475fcb8aa6b5eb5c13a61266900d3',
+                        'format': 'iframe',
+                        'height': 250,
+                        'width': 300,
+                        'params': {}
+                    };
+                </script>
+                <script src="https://glamournakedemployee.com/fa7475fcb8aa6b5eb5c13a61266900d3/invoke.js"></script>
 
-        <blockquote>
-            "A clean digital workspace is the foundation of productive thinking."
-        </blockquote>
+            </div>
+        </div>
+    </main>
 
-        <h2>1. Delete Temporary and Cache Files</h2>
-        <p>Temporary files are created by applications and browsers every day. While they help programs run faster in
-            the short term, these files can accumulate and consume several gigabytes of storage.</p>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">how to download</a>
+            <a href="#">contact</a>
+            <a href="#">DMCA</a>
+        </div>
+        <p>All resources are shared by their respective owners. &copy; 2026 kumpulenak</p>
+    </footer>
 
-        <p>Use built-in tools such as Disk Cleanup on Windows or system storage managers to remove unnecessary temporary
-            data safely. Performing this cleanup once every few weeks can significantly improve system responsiveness.
-        </p>
-
-        <h2>2. Uninstall Programs You No Longer Use</h2>
-        <p>Many users install software once and forget about it. Over time, dozens of unused programs remain installed
-            in the system, occupying storage and sometimes running background processes.</p>
-
-        <p>Review your installed applications every few months and remove software that you rarely or never use. This
-            reduces startup load and frees system resources.</p>
-
-        <h2>3. Organize Files Using the "Three Folder Rule"</h2>
-        <p>A simple but effective method for file organization is the Three Folder Rule:</p>
-        <ul>
-            <li><strong>Active</strong> – files you currently use</li>
-            <li><strong>Archive</strong> – completed projects or older files</li>
-            <li><strong>Resources</strong> – references, templates, and materials</li>
-        </ul>
-
-        <p>This structure reduces time spent searching for documents and keeps your desktop from becoming overcrowded.
-        </p>
-
-        <h2>4. Remove Duplicate Photos and Downloads</h2>
-        <p>Duplicate images and repeated downloads are among the most common causes of wasted storage. Screenshots,
-            memes, and multiple downloads of the same file quickly accumulate.</p>
-
-        <p>Use duplicate-finder tools or manually review folders like Downloads and Pictures to remove redundant files.
-        </p>
-
-        <h2>5. Clean Your Browser Extensions</h2>
-        <p>Browser extensions are powerful productivity tools, but having too many installed can slow down browsing
-            performance.</p>
-
-        <p>Disable or remove extensions that you do not actively use. Keeping only essential tools improves browser
-            speed and security.</p>
-
-        <h2>6. Use Cloud Storage for Long-Term Files</h2>
-        <p>Files that are rarely accessed — such as old projects, backups, or large media files — can be moved to cloud
-            storage services. This helps keep your local drive light while still preserving access to important data.
-        </p>
-
-        <p>Many users now adopt a hybrid storage strategy: essential files locally, archived files in the cloud.</p>
-
-        <h2>7. Schedule a Monthly Digital Cleanup</h2>
-        <p>The most effective strategy is consistency. Set a monthly reminder to clean files, organize folders, and
-            review installed programs.</p>
-
-        <p>Just 15 minutes of digital maintenance each month can keep your computer running smoothly and prevent clutter
-            from building up again.</p>
-
-        <p>By applying these digital decluttering tips, you can improve system performance, reduce stress when searching
-            for files, and create a cleaner, more productive digital environment.</p>
-    </article>
-
-    <!-- Native Banner -->
-    <div style="text-align: center; margin: 20px auto; z-index: 999; position: relative;">
-        <script async="async" data-cfasync="false"
-            src="https://pl28946644.profitablecpmratenetwork.com/c8ebef3d58c746e67e86c8bf7b1d5bd6/invoke.js"></script>
-        <div id="container-c8ebef3d58c746e67e86c8bf7b1d5bd6"></div>
+    <!-- ===== EDIT MODAL (admin only) ===== -->
+    <div class="modal-overlay" id="editModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeEditModal()">&times;</button>
+            <h2>✏️ Edit Card</h2>
+            <form id="editForm" onsubmit="saveCard(event)">
+                <input type="hidden" id="editIndex">
+                <div class="form-group">
+                    <label class="form-label">Card Name / Title</label>
+                    <input type="text" id="editName" class="form-input" placeholder="Enter card name...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Link URL</label>
+                    <input type="text" id="editLink" class="form-input" placeholder="https://...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Image URL</label>
+                    <input type="text" id="editImage" class="form-input" placeholder="https://...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Date (mm/dd)</label>
+                    <input type="text" id="editDate" class="form-input" placeholder="04/14">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Views</label>
+                    <input type="text" id="editViews" class="form-input" placeholder="1234">
+                </div>
+                <button type="submit" class="form-submit">💾 Save Changes</button>
+            </form>
+        </div>
     </div>
 
-    <!-- Script Utama -->
-    <script src="script.js"></script>
+    <!-- ===== EDIT INDICATOR ===== -->
+    <div class="edit-indicator" id="editIndicator">
+        ⚙️ Edit Mode ON — Click any card to edit
+    </div>
 
-    <!-- Script Iklan (file terpisah agar rapi) -->
-    <script src="ads.js"></script>
+    <!-- Config (rahasia, tidak di-upload ke GitHub) -->
+    <script src="config.js"></script>
+    <!-- Gallery Logic -->
+    <script src="assets/js/gallery.js"></script>
 
 </body>
 
